@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.moviesPage{
+    height : 100vh;
+    width : 100vw;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content:unset;
+    background-color: black;
+}
+.textPortion{
+    width:38vw;
+    height:92vh;
+    display:inline-flex;
+    flex-direction : column;   
+    text-align: center;
+    margin-top:2rem;
+}
+.collectionPart{
+    width: 55vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    height:100vh;
+}
+.movies{
+    height:85%;
+    width:90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5%;
+    margin-top:1.2rem;
+}
+.Box{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0em;
+}
+
+#Western{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #FF5209;
+    border-radius:10px;
+    color:White;
+}
+.B-1:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-2{
+    height:28% ;
+    width: 28% ;
+    padding:5px;
+    background-color: #D7A4FF;
+    border-radius:10px;
+    color:White;
+}
+.B-2:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-3{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #148A08;
+    border-radius:10px;
+    color:White;
+}
+.B-3:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-4{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #84C2FF;
+    border-radius:10px;
+    color:White;
+}
+.B-4:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-5{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #902500;
+    border-radius:10px;
+    color:White;
+}
+.B-5:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-6{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #7358FF;
+    border-radius:10px;
+    color:White;
+}
+.B-6:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-7{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #FF4ADE;
+    border-radius:10px;
+    color:White;
+}
+.B-7:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-8{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #E61E32;
+    border-radius:10px;
+    color:White;
+}
+.B-8:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.B-9{
+    height:28% ; 
+    width: 28%;
+    padding:5px;
+    background-color: #6CD061;
+    border-radius:10px;
+    color:White;
+}
+.B-9:hover{
+    cursor:pointer;
+    border:3px solid #11B800;
+}
+.Poster{
+    width: 170px;
+    height: 88px;
+    /* top: 216px;
+    left: 1372px; */
+    border-radius: 11.66px;
+    margin:25px 0 0 4px;
+}
+.movieChip{
+    background-color:#11B800;
+    display:inline-flex;
+    flex-wrap:wrap;
+    padding:7px;
+    font-weight:300;
+    border-radius:20px;
+    margin:auto;
+    gap:30px;
+    margin-left:8px;
+}

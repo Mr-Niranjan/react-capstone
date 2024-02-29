@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.registrationPage{
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+    align-content: stretch;
+    flex-wrap: nowrap;
+    background-color: #000000;
+}
+.fillUp{
+    width:45vw;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+}
+.toFill{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+.toFill input{
+    width:25rem;
+    height:1rem;
+    padding:5px;
+    background-color: #292929;
+    border:none;
+    color:white;
+}
+.RegPageImg{
+    width : 50vw;
+    height:100%;
+}
+/* .RegPageImg h2{
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 78px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color:#FFFFFF;
+    margin-bottom:42rem; 
+} */
+.condition{
+    display:flex;
+    flex-direction: center;
+    align-items:center;
+    width:28rem;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left:35px;
+    color:#7C7C7C;
+}
+h1{
+    /* margin-bottom:0.5rem; */
+    font-family: Single Day;
+    font-size: 67px;
+    font-weight: 400;
+    line-height: 94px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#72DB73;
+
+}
+.subHead{
+    margin-top:1rem;
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+.click{
+    margin-top:1rem;
+    width: 418px;
+    height: 45px;
+    top: 761px;
+    left: 1047px;
+    border-radius: 20px;
+    background-color: #72DB73;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    border:none;
+}
+.checkBox{
+    font-family: DM Sans;
+    font-size: 14.7px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin:1rem 8rem 0 0;
+    color:#7C7C7C;
+}
+.errors p{
+    gap:1px;
+    margin:0;
+    padding:0;
+}
