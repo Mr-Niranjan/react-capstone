@@ -1,8 +1,8 @@
 
 import UserInfo from "../components/UserInfo.jsx";
 import Notes from "../components/Notes.jsx";
-// import Weather from "../components/Weather.jsx";
-// import News from "../components/News.jsx";
+import Weather from "../components/Weather.jsx";
+import News from "../components/News.jsx";
 import Timer from "../components/Timer.jsx" ;
 import { useNavigate} from "react-router-dom";
 
@@ -26,7 +26,7 @@ export default function Display() {
  </div>
  
 <div style={{width:"48%",height:"20vh", borderRadius: "19px",backgroundColor:"#F1C75B",alignItems:"left",margin: "-141px 400px 0px 7px"}}>
-  {/* <Weather/> */}
+  <Weather/>
 </div>
 
 <div style={{width:"97%",height:"33vh",borderRadius: "19px",backgroundColor:"#5746EA"}}>
@@ -37,7 +37,7 @@ export default function Display() {
 
 <div style={{width:"35vw",height:"100vh",gap: "20px",display:"flex",flexDirection:"row",flexWrap:"wrap"}}>
 <div style = {{width:"98vw",height:"90vh",gap: "30px",display:"flex",flexDirection:"row",flexWrap:"wrap",justifyContent:"center",margin:"10px" }}>
-    {/* <News/> */}
+    <News/>
 
     </div>
 <button onClick={handleClick} style={{position: "absolute",bottom: "0",right: "20px",padding: "5px",borderRadius: "16px",backgroundColor: "#148A08",width:"100px",color:"white",border:"none"}}>Browse</button>

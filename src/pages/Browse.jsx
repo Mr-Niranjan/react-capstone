@@ -1,3 +1,3 @@
 export default function Browse() {
-    return <h1>Browse Page</h1>
+    return <h1 style={{backgroundColor:"black",color:"white"}}>Browse Page</h1>
 }
