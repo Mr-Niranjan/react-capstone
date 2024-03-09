@@ -73,6 +73,7 @@ export default function RegistrationForm(){
         
         if( !isErrors ){
           alert("registerd succesfully")
+          localStorage.setItem("userInfo",JSON.stringify(formValues));
           navigate("/Movies")
         }
       };
@@ -112,8 +113,8 @@ export default function RegistrationForm(){
          {errors.checkbox ? <p className="errors" style={{color:"red"}}>{errors.checkbox}</p> : <></>}
          </div>
          <button className="click" onClick={handleSignUp}>SIGN UP</button>
-         <p className="condition">By clicking on Sign up. you agree to Superapp Terms and Conditions of Use</p>
-         <p className="condition">To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp Privacy Policy</p>
+         <p className="condition">By clicking on Sign up. you agree to Superapp <p style={{color:"#72DB73"}}> Terms and Conditions of Use</p></p>
+         <p className="condition">To learn more about how Superapp collects, uses, shares and protects your personal data please head Superapp<span style={{color:"#72DB73"}}>Privacy Policy</span></p>
          </div>
         </div>
     )

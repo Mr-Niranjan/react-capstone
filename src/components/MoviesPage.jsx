@@ -111,50 +111,10 @@ export default function MoviesPage() {
                 {selected.length < 3 ? <p style={{color:"red",margin:"1rem"}}>Minimum 3 categories required</p> : <></>}
              </div>
        </div>
-       {/* <div>
-        {selected.length < 3 ? <p>Minimum 3 categories required</p> : <></>}
-        <button onClick={handleClick}></button>
-       </div> */}
 
        <div className="collectionPart">
 
               <div className="movies">
-               {/* <div className="Box B-1"  name="Action">
-                    <h3>Action</h3>
-                    <img src = {Action} alt="Action page" className="Poster ActionImage"/>
-                </div>
-                <div className="Box B-2" name="Drama">
-                <h3>Drama</h3>
-                    <img src = {Drama} alt="Drama page" className="Poster DramaImage"/>
-                </div>    
-                <div className="Box B-3">
-                <h3>Romance</h3>
-                    <img src = {Romance} alt="HorrorRomance page" className="Poster RomanceImage"/>
-                </div>
-                <div className="Box B-4">
-                <h3>Thriller</h3>
-                    <img src = {Thriller} alt="Thriller page" className="Poster ThrillerImage"/>
-                </div>
-                <div className="Box B-5">
-                <h3>Western</h3>
-                    <img src = {Western} alt="Western page" className="Poster WesternImage"/>
-                </div>
-                <div className="Box B-6">
-                <h3>Horror</h3>
-                    <img src = {Horror} alt="Horror page" className="Poster HorrorImage"/>
-                </div>
-                <div className="Box B-7">
-                <h3>Fantasy</h3>
-                    <img src = {Fantasy} alt="Fantasy page" className="Poster FantasyImage"/>
-                </div>
-                <div className="Box B-8">
-                <h3>Music</h3>
-                    <img src = {Music} alt="Music page" className="Poster MusicImage"/>
-                </div>
-                <div className="Box B-9">
-                <h3>Fiction</h3>
-                    <img src = {Fiction} alt="Fiction page" className="Poster FictionImage"/>
-                </div> */}
 
              {genres.map((genres)=>{
               return (
